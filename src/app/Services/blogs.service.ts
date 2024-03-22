@@ -6,7 +6,7 @@ import { HttpClient } from "@angular/common/http";
   providedIn: "root",
 })
 export class BlogsService {
-  apiUrl = "http://localhost:3000/api/blogs";
+  apiUrl = "http://127.0.0.1:3000/api/blogs";
 
   constructor(private http: HttpClient) {}
 
